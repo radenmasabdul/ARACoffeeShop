@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARA Coffee Shop</title>
+    <link href="/images/logo.png" rel="shorcut icon">
+
+    <!-- font awesome cdn links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+
+    <!-- start header -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#product">Products</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" onkeyup="myFunction()" placeholder="Search Here...">
+            <label for="search-box" class=" fas fa-search"></label>
+        </div>
+
+    </header>
+
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <span class="home" id="home">
+            <div class="content">
+                <h3> It's time for coffee </h3>
+                <p>With the best and original coffee from every region in Indonesia</p>
+                <a href="#menu" class="btn">Get your coffee now!</a>
+            </div>
+        </span>
+
+        <!-- start contain article about-->
+        <article class="about" id="about">
+            <h1 class="heading"><span> About </span> Us </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="/images/kopi-about.jpg" alt="kopi-about">
+                </div>
+                <div class="content">
+                    <h3> What make our coffee special?</h3>
+                    <p>Because it is the best choice of coffee in all regions of Indonesia, it is bought directly from
+                        coffee bean farmers so that the taste of the coffee does not change. Made using love and
+                        sincerity
+                        so that the taste is guaranteed and of course quality.</p>
+                    <a href="#product" class="btn-about">Learn More</a>
+                </div>
+            </div>
+        </article>
+        <!-- end contain article about -->
+
+        <!-- start contain article our menu -->
+        <article class="menu" id="menu">
+            <h1 class="heading"> Our <span> Menu </span></h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="/images/kopi1.jpg" alt="menu1">
+                    <h3>Gayo Arabica Coffee</h3>
+                    <div class="harga">Rp. 30.000</div>
+                    <a href="#contentkopigayosumatera" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi2.jpg" alt="menu2">
+                    <h3>Kintamani Coffee</h3>
+                    <div class="harga">Rp. 35.000</div>
+                    <a href="#contentkopikintamani" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi3.jpg" alt="menu3">
+                    <h3>Flores Bajawa Coffee</h3>
+                    <div class="harga">Rp. 40.000</div>
+                    <a href="#contentkopibajawa" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi4.jpeg" alt="menu4">
+                    <h3>Toraja Coffee</h3>
+                    <div class="harga">Rp. 45.000</div>
+                    <a href="#contentkopitoraja" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi5.jpg" alt="menu5">
+                    <h3>Gayo Coffee</h3>
+                    <div class="harga">Rp. 30.000</div>
+                    <a href="#contentkopigayo" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi6.jpg" alt="menu6">
+                    <h3>Wamena Coffee</h3>
+                    <div class="harga">Rp. 35.000</div>
+                    <a href="#contentkopiwamena" class="btn-box"> View </a>
+                </div>
+
+                <div class="box">
+                    <img src="/images/kopi7.jpg" alt="menu7">
+                    <h3>Lampung Coffee</h3>
+                    <div class="harga">Rp. 25.000</div>
+                    <a href="#contentkopilampung" class="btn-box"> View </a>
+                </div>
+            </div>
+        </article>
+        <!-- end contain article our menu -->
+
+        <!-- start contain article our product -->
+        <article class="product" id="product">
+            <h1 class="heading"> Our <span> Products </span></h1>
+            <div class="box-container-product">
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi1.jpg" alt="product1">
+                    </div>
+                    <div class="content" id="contentkopigayosumatera">
+                        <h3>Gayo Arabica Coffee, Sumatera</h3>
+                        <p>Sumatran coffee is one of the coffee varieties originating from Sumatra with the smoothest
+                            texture and the heaviest and most complex taste among the various coffees in the world. Most
+                            Sumatran coffee is dry-processed, but some is semi-washed<span class="dots">...</span>
+                            <span class="more">
+                                Sumatran coffee is very famous for its Mandailing coffee or Lintong coffee which grows
+                                on
+                                the
+                                southern coast of the island of Sumatra. Sumatran coffee which grows more towards the
+                                west
+                                is
+                                known as Gunung Gayo coffee. Sumatran Gayo Coffee is described as a coffee that tastes
+                                sweet
+                                and
+                                clean. Coffee experts who want to buy Sumatran coffee usually see the aging of the
+                                Sumatran
+                                coffee beans. These coffee beans give off an “earth” and “spice” taste. This is the
+                                uniqueness
+                                of the Sumatran coffee bean which makes it one of the most sought after coffee types in
+                                the
+                                world.</span><a data-id="1" class="mybtn" onclick="myFunction(0)">Read more</a></p>
+
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 30.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi2.jpg" alt="product2">
+                    </div>
+                    <div class="content" id="contentkopikintamani">
+                        <h3>Kintamani Coffee, <br>Bali</h3>
+                        <p>Kintamani Bali coffee is produced from arabica coffee plants grown in the Kintamani
+                            highlands,
+                            with an altitude of 900m above sea level. Located on the slopes of the Batur volcano,
+                            Kintamani
+                            has cold and dry air with high rainfall. This condition makes<span class="dots">...</span>
+                            <span class="more">the arabica coffee plants produced
+                                are superior varieties. Furthermore, the coffee tree is combined with other plants. With
+                                a
+                                distinctive taste, namely citrus aroma and low acidity, this coffee is in great demand
+                                by
+                                foreign consumers.</span><a class="mybtn" onclick="myFunction(1)">Read More</a></p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 35.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi3.jpg" alt="product3">
+                    </div>
+                    <div class="content" id="contentkopibajawa">
+                        <h3>Flores Bajawa Coffee, Nusa Tenggara Timur</h3>
+                        <p>The distinctive character of Flores Bajawa coffee is the combination of nutty and tobacco
+                            aromas.
+                            Its thick body with balanced acidity creates its own pleasure. This unique taste is also
+                            influenced by the way of organic cultivation and planted in soil containing volcanic ash.
+                        </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 40.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi4.jpeg" alt="product4">
+                    </div>
+                    <div class="content" id="contentkopitoraja">
+                        <h3>Toraja Coffee, Sulawesi Selatan</h3>
+                        <p>Toraja coffee is one of the popular variants that has the best quality in Indonesia. This
+                            coffee,
+                            which comes from the land of Toraja, South Sulawesi, has a distinctive taste and unique
+                            character. Latin name Celeber Kalosi, Toraja coffee has been known<span
+                                class="dots">...</span>
+                            <span class="more">by coffee lovers around the world. Became one of Indonesia's coffees that
+                                have been exported, together with gayo coffee,
+                                civet coffee and others. The taste of Toraja coffee is known to be very delicious and
+                                distinctive. One of the reasons
+                                is
+                                because it is planted in mountainous areas with altitudes reaching 1400 to 2100 meters
+                                above
+                                sea
+                                level, namely in the Sasean Mountains. Planted in volcanic soil areas. Coffee trees in
+                                this
+                                area
+                                are planted side by side with various spice plants, so it is not surprising that Toraja
+                                coffee
+                                has a fragrant and distinctive aroma.</span><a class="mybtn"
+                                onclick="myFunction(2)">Read
+                                More</a></p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 45.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi5.jpg" alt="product5">
+                    </div>
+                    <div class="content" id="contentkopigayo">
+                        <h3>Gayo Coffee, Aceh</h3>
+                        <p>Gayo coffee is an arabica coffee variety which is one of the leading commodities originating
+                            from
+                            the Gayo Highlands, Central Aceh, Indonesia. He has received Fair Trade Certified™ from the
+                            Fair
+                            Trade International Organization on 27 May 2010, Kopi gayo <span class="dots">...</span>
+                            <span class="more">received an IG (Geographical
+                                Indication) certificate submitted by the Ministry of Law and Human Rights of the
+                                Republic of
+                                Indonesia. Then at the Indonesian Coffee Special Auction Event on October 10, 2010 in
+                                Bali,
+                                again Gayo Arabica coffee got the highest rank during the cupping score. These
+                                certifications
+                                and achievements have further strengthened Gayo Coffee's position as the world's best
+                                organic
+                                coffee.</span><a class="mybtn" onclick="myFunction(3)">Read
+                                More</a></p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 30.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi6.jpg" alt="product6">
+                    </div>
+                    <div class="content" id="contentkopiwamena">
+                        <h3>Wamena Coffee, Papua</h3>
+                        <p>Coffee from Wamena has a soft and balanced taste. In addition, the aroma is very strong and
+                            has a
+                            floral feel. The character of the aroma that is rarely owned by Indonesian coffees from
+                            other
+                            regions and has a very smooth texture, the aroma of <span class="dots">...</span>
+                            <span class="more">Wamena Arabica coffee beans is fragrant.
+                                Having low levels of acid and caffeine, this coffee has an organic sweet taste. So,
+                                don't be
+                                surprised if Wamena Arabica coffee is one of the most expensive variants in its class.
+
+                                Now you can find Papua Wamena easily in coffee shops or online sellers. Not only single
+                                origin
+                                but also in blended form. Its distinctive aroma often makes many baristas interested in
+                                using it
+                                for houseblend mixtures.</span><a class="mybtn" onclick="myFunction(4)">Read
+                                More</a></p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 35.000</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="images-product">
+                        <img src="/images/kopi7.jpg" alt="product7">
+                    </div>
+                    <div class="content" id="contentkopilampung">
+                        <h3>Lampung Coffee</h3>
+                        <p>This Lampung coffee has a smell like chocolate and spices, the quality is also of good
+                            quality.
+                            This type of Lampung Robusta coffee grows above an altitude of 800 meters above sea level,
+                            and
+                            thrives in cold areas. Compared to other coffees, this Lampung <span class="dots">...</span>
+                            <span class="more">Coffee contains an ideal acidity and is quite safe for consumption.
+                                Indeed, the difference in taste compared to other robusta coffees is slightly different.
+                                But
+                                for
+                                coffee lovers, you must already know the comparison through the taste. This unique taste
+                                with
+                                unique and interesting characteristics makes Lampung Coffee one of the most popular
+                                coffees.</span><a class="mybtn" onclick="myFunction(5)">Read
+                                More</a></p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="harga-produk">Rp. 25.000</div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- end contain article our product -->
+
+        <!-- start contain article reviews -->
+        <arcticle class="review" id="review">
+            <h1 class="heading"> Costumers <span> Reviews </span></h1>
+            <div class="box-container-review">
+                <div class="box-review">
+                    <img src="/images/quotes.png" alt="quotes">
+                    <p>My favorite coffee is Toraja Coffee with a strong coffee taste sensation, penetrating the tongue.
+                        There is also a sense of bitterness. The bitterness appears on the tip of the tongue shortly
+                        after
+                        the coffee is drunk.</p>
+                    <img src="/images/cs01.png" class="cs" alt="cs01">
+                    <h3>Aaron Barney</h3>
+                    <div class="star-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="box-review">
+                    <img src="/images/quotes.png" alt="quotes">
+                    <p>My favorite coffee is Aceh Gayo Coffee, with the taste of Gayo coffee itself being more bitter
+                        with a
+                        low acidity level and a very sharp aroma. Despite its bitter taste, Gayo coffee gives a savory
+                        aroma
+                        to every sip.</p>
+                    <img src="/images/cs02.png" class="cs" alt="cs02">
+                    <h3>Alyssa Beatrice</h3>
+                    <div class="star-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box-review">
+                    <img src="/images/quotes.png" alt="quotes">
+                    <p>My favorite coffee is Flores Bajawa coffee, nothing beats this Bajawa black coffee. NTT's coffee
+                        beans are called Cold Black Sweet. Buy the one without sugar because I don't like sweet. The
+                        taste
+                        of <span class="dots">...</span> <span class="more">black coffee is thick but cold, the acid is
+                            not
+                            too high. For those
+                            who don't like bitterness,
+                            you can use sugar, because it tastes a little bitter. Black coffee lovers must try
+                            it!</span><a class="mybtn" onclick="myFunction(6)">Read
+                            More</a></p>
+                    <img src="/images/cs03.png" class="cs" alt="cs03">
+                    <h3>Emmanuel Gilbert</h3>
+                    <div class="star-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box-review">
+                    <img src="/images/quotes.png" alt="quotes">
+                    <p>My favorite coffee is Wamena Coffee, which is the most delicious Arabica coffee because it has a
+                        balanced taste between sweet and sour. The delicious taste and unique aroma of coffee is
+                        suitable
+                        for black coffee lovers.</p>
+                    <img src="/images/cs04.png" class="cs" alt="cs04">
+                    <h3>Caroline Amber</h3>
+                    <div class="star-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box-review">
+                    <img src="/images/quotes.png" alt="quotes">
+                    <p>My favorite coffee is Kintamani Coffee, coffee from the Island of the Gods has a fresh citrusy
+                        taste
+                        and aroma plus hints of chocolaty, caramel or brown sugar. This Kintamani coffee also <span
+                            class="dots">...</span> <span class="more">does not have
+                            the taste or aroma of spices or spices typical of other types of coffee in Indonesia. This
+                            is
+                            thanks
+                            to its unique cultivation process.</span><a class="mybtn" onclick="myFunction(7)">Read
+                            More</a></p>
+                    <img src="/images/cs05.png" class="cs" alt="cs05">
+                    <h3>Chris Duke</h3>
+                    <div class="star-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </arcticle>
+        <!-- end contain article reviews -->
+
+        <!-- start contain article contact -->
+        <article class="contact" id="contact">
+            <h1 class="heading"><span> Contact </span> Us </h1>
+            <div class="row">
+
+                <form name="sendingMail">
+                    <h3>Get in touch</h3>
+                    <div class="input-box">
+                        <span class="fas fa-user"></span>
+                        <input type="text" name="name" placeholder="Name" required="">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" name="email" placeholder="Email" required="">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" name="number" placeholder="Number" required="">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="fas fa-envelope"></span>
+                        <input type="text" name="messages" placeholder="Messages" required="">
+                    </div>
+
+                    <a onclick="sendEmail()" class="btn-contact">Submit</a>
+                </form>
+
+                <aside>
+                    <div class="card">
+                        <img src="/images/foto-profil.png" alt="John" style="width:100%">
+                        <h1>Abdul Rahman Alhafizh</h1>
+                        <p class="title">CEO & Founder ARA Coffee Shop</p>
+                        <div style="margin: 24px 0;">
+                            <a href="https://www.facebook.com/bangrastakece" target="_blank"><i><img
+                                        src="/images/icon1-fb.svg" class="icons-card" /></i></a>
+                            <a href="https://www.instagram.com/radenmasabdul" target="_blank"><i><img
+                                        src="/images/icon2-ig.svg" class="icons-card" /></i></a>
+                            <a href="https://www.linkedin.com/in/abdulrahmanalhafizh" target="_blank"><i><img
+                                        src="/images/icon3-li.svg" class="icons-card" /></i></a>
+                            <a href="https://www.twitter.com/radenmasabdul_" target="_blank"><i><img
+                                        src="/images/icon4-tw.svg" class="icons-card" /></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=628988416727" target="_blank"><i><img
+                                        src="/images/icon5-wa.png" class="icons-card" /></i></a>
+                        </div>
+                        <a href="tel:+628988416727" style="margin-bottom: 100px;"><button><span
+                                    class="fas fa-phone"></span>
+                                08988416727</button></a>
+                    </div>
+                </aside>
+            </div>
+        </article>
+        <!-- end contain article contact -->
+
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="locate">
+            <div class="lines"> <a
+                    href="https://www.google.com/maps/place/6%C2%B034'02.7%22S+106%C2%B047'17.6%22E/@-6.5680169,106.7885313,17z/data=!4m6!3m5!1s0x0:0xf620a0ae574fcdd8!7e2!8m2!3d-6.5674041!4d106.7882313"
+                    target="_blank"><i><img src="/images/ft_locate.png" class="icons-ft" /></i><span class="url"> Jl.
+                        Cimanggu Gg. Mesjid
+                        No.41 Kota Bogor, 16164</span></a>
+            </div>
+            <div class="lines"> <a href="mailto:abdul.tamsis@gmail.com"><i><img src="/images/ft_mail.png"
+                            class="icons-ft" /></i><span class="url"> abdul.tamsis@gmail.com</span></a>
+            </div>
+            <div class="lines"> <a href="tel:+628988416727"><i><img src="/images/ft_call.png"
+                            class="icons-ft" /></i><span style="margin-top:-10px;" class="url"> 08988416727</span></a>
+            </div>
+            <div class="lines"> <a
+                    href="https://api.whatsapp.com/send?phone=628988416727&text=Halo%20Admin!%0ASaya%20ingin%20order%20jasa%20Anda"
+                    target="_blank"><i><img src="/images/icon5-wa.png" class="icons-ft" /></i><span
+                        style="margin-top:-10px;" class="url"> 08988416727</span></a>
+            </div>
+            <div class="credit">
+                <p>© 2022 ARA Coffee Shop. All rights reserved | Design by Abdul Rahman Alhafizh </p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- custom js -->
+    <script src="/assets/script.js"> </script>
+    <script src="https://smtpjs.com/smtp.js"></script>
+</body>
+
+</html>
